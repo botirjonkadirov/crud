@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css2?family=Graduate&display=swap");
+
+body {
+  font-family: 'Graduate', display;
+}
+.date {
+    font-size: large;
+    color: rgb(109, 109, 25);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* flex-direction: column;  */
+    gap: 10px;
+    font-size: 20px;
+    margin-top: 50px;
+}
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: honeydew;
+}
+ul, ol {
+    list-style: none;
+}
+.time {
+    position: fixed;
+    left: 50%;
+    top: 10%;
+    transform: translate(-50%, -50%);
+    font-size: 25px;
+    color: rgb(5, 135, 113);
+    font-weight: 100;
+}
+
+.todolist {
+    color: rgb(6, 164, 6);
+    font-size: 50px;
+    font-weight: 100;
+    position: fixed;
+    left: 50%;
+    top: 20%;
+    transform: translate(-50%, -50%);
+}
+
+.forma {
+    margin-top: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+   
+}
+
+.input-create {
+    padding: 10px 15px;
+    font-size: 25px;
+    border-radius: 5px;
+    background-color: rgb(228, 238, 238);
+    
+}
+.btn {
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: rgb(146, 146, 234);
+     color: antiquewhite;
+     font-size: 25px;
+}
+.mb-3 {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+}
+.text-danger {
+    color: red;
+
+}
+.li-todo{
+    text-decoration: none;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   width: 100%;
+   border: 1px solid rgb(83, 82, 82);
+   width: 440px;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+
+.list-group {
+    /* display: flex; */
+    margin-top: 10px;
+    align-items: center;
+ }
+ .list-li {
+    display: flex;
+    align-items: center;
+ }
+
+ .done {
+    opacity: 0.5;
+ }
+
+ .btn-header-modal{
+    border-style: none;
+    background-color: inherit;
+ }
+
+ .wrapper{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: inherit;
+    background-color: #fff;
+}
+.modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 100;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    width: 550px;
+    background-color: rgb(241, 238, 234);
+    font-weight: 100;
+    padding-left: 10px;
+    margin-bottom: 50px;
+}
+
+.input-todo-modal {
+    padding: 10px 15px;
+    font-size: 25px;
+    border-radius: 5px;
+    background-color: rgb(228, 238, 238);
+
+}
+.hiddin {
+    display: none;
+}
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(4px);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.edit-message{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: red;
+}

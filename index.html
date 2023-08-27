@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>crud</title>
+</head>
+<body>
+    <div class="date">
+        <div class="day">day</div>
+        <div class="month">month</div>
+        <div class="year">year</div>
+    </div>
+    <div class="time">time</div>
+    <h1 class="todolist">To do list</h1>
+    <!-- forma -->
+    <form action="" id="forma-create" class="forma">
+        <div class="mb-3">
+            <input type="text" placeholder="type to do" id="input-create" class="input-create">
+            <span id="message-create" class="text-danger">sdsd</span>
+        </div>
+        <button class="btn">Add</button>
+
+    </form>
+
+    <ul id="list-group-todo" class="list-group">
+        <!-- <li class="li-todo">
+            hello
+            <div class="list-li">
+                <span class="todo-span">26.06.2023</span>
+                <img class="todo-edit" src="./edit.png" alt="edit" width="35" height="35">
+                <img class="delate-todo" src="./delete.png" alt="delete" width="35" height="35">
+            </div>
+        </li> -->
+    </ul>
+
+    <div id="modal" class="modal wrapper hiddin">
+        <div class="header">
+            <h3 class="changertodo">Change to do</h3>
+            <button id="close" class="btn-header-modal"><img src="./cancel.png" alt="cancel"></button>
+
+        </div>
+        <form id="edit-form">
+           <div class="">
+            <input type="text" placeholder="type todo" class="input-todo-modal" id="input-todo-modal">
+            <button class="btn">Save changes</button>
+           </div>
+            <span id="edit-message" class="edit-message"></span>
+        </form>
+    </div>
+
+    <div class="overlay hiddin" id="overlay"></div>
+    <script src="./app.js"></script>
+</body>
+</html>
