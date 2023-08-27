@@ -3,6 +3,13 @@
 body {
   font-family: 'Graduate', display;
 }
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
 .date {
     font-size: large;
     color: rgb(109, 109, 25);
@@ -15,7 +22,9 @@ body {
     margin-top: 20px;
 }
 body {
-    width: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -24,6 +33,7 @@ body {
 ul, ol {
     list-style: none;
 }
+
 .time {
     position: fixed;
     left: 50%;
