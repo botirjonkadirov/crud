@@ -12,7 +12,7 @@ body {
     /* flex-direction: column;  */
     gap: 10px;
     font-size: 20px;
-    margin-top: 50px;
+    margin-top: 20px;
 }
 body {
     width: 100vh;
@@ -27,7 +27,7 @@ ul, ol {
 .time {
     position: fixed;
     left: 50%;
-    top: 20%;
+    top: 10%;
     transform: translate(-50%, -50%);
     font-size: 25px;
     color: rgb(5, 135, 113);
